@@ -9,12 +9,12 @@ export default function Footer() {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-db-white rounded-sm flex items-center justify-center">
-                <span className="text-db-gold font-bold text-xl">DB</span>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 bg-white rounded-md flex items-center justify-center p-1">
+                <img src="/images/logo.png" alt="Dev Bhoomi Logo" className="w-full h-full object-contain" />
               </div>
-              <span className="font-bold text-xl tracking-tight text-db-white">
-                DevBhoomi Paints
+              <span className="font-bold text-xl tracking-tight text-db-white leading-tight">
+                Dev Bhoomi <br />Paint Industries
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -95,13 +95,21 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="text-db-gold shrink-0 mt-0.5" size={18} />
                 <span>
-                  123 Industrial Area, Phase 2<br />
-                  Dehradun, Uttarakhand, India 248001
+                  <strong className="text-gray-300">Office:</strong> Opp Govt Primary School, Khamia Road, Shantipuri no 3, Kichha, Udham Singh Nagar, Uttrakhand, 263148
                 </span>
               </li>
-              <li className="flex items-center gap-3 text-gray-400 text-sm">
-                <Phone className="text-db-gold shrink-0" size={18} />
-                <span>+91 98765 43210</span>
+              <li className="flex items-start gap-3 text-gray-400 text-sm">
+                <MapPin className="text-db-gold shrink-0 mt-0.5" size={18} />
+                <span>
+                  <strong className="text-gray-300">Plant:</strong> Ward no 2, Khet no 763, Near New Mandi, Sonera, Kichha, Udham Singh Nagar, Uttrakhand, 263148
+                </span>
+              </li>
+              <li className="flex items-start gap-3 text-gray-400 text-sm">
+                <Phone className="text-db-gold shrink-0 mt-0.5" size={18} />
+                <div className="flex flex-col space-y-1">
+                  <span>+91 8077116992</span>
+                  <span>+91 6397212360</span>
+                </div>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="text-db-gold shrink-0" size={18} />
@@ -115,7 +123,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} DevBhoomi Paints Industries. All rights reserved.
+            &copy; {new Date().getFullYear()} Dev Bhoomi Paint Industries. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
             <Link href="/privacy" className="hover:text-db-white transition-colors">Privacy Policy</Link>

@@ -53,27 +53,15 @@ export default function Hero() {
             {/* Background Blob/Circle */}
             <div className="absolute w-80 h-80 bg-gray-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob" />
             
-            {/* Top Image: Paint Swatch Texture */}
+            {/* Main Hero Image */}
             <motion.div
-              className="absolute top-10 right-20 lg:right-32 w-64 h-64 rounded-xl overflow-hidden shadow-2xl z-20 border-4 border-white"
-              whileHover={{ y: -10 }}
-              transition={{ duration: 0.3 }}
+              className="relative w-full max-w-md lg:max-w-lg aspect-square rounded-2xl overflow-hidden shadow-2xl z-20 border-8 border-white"
+              whileHover={{ y: -10, scale: 1.02 }}
+              transition={{ duration: 0.4 }}
             >
               <div 
                 className="w-full h-full bg-cover bg-center"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=1000&auto=format&fit=crop')" }}
-              />
-            </motion.div>
-
-            {/* Bottom Image: White Tiles Grid */}
-            <motion.div
-              className="absolute bottom-10 right-0 lg:-right-10 w-72 h-64 rounded-xl overflow-hidden shadow-xl z-10 border-4 border-white"
-              whileHover={{ y: -10 }}
-              transition={{ duration: 0.3 }}
-            >
-              <div 
-                className="w-full h-full bg-cover bg-center"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1000&auto=format&fit=crop')" }}
+                style={{ backgroundImage: "url('/images/hero_paint_roller.png')" }}
               />
             </motion.div>
           </motion.div>

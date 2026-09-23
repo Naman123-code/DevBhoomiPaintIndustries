@@ -29,20 +29,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex-shrink-0 flex items-center gap-3">
-            {/* Mountain and Building SVG Logo */}
-            <div className="w-10 h-10 text-db-charcoal relative">
-              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* Mountains */}
-                <path d="M10 80 L35 40 L50 60 L70 30 L95 80 Z" fill="currentColor" opacity="0.9" />
-                {/* Buildings / Cityscape overlapping */}
-                <path d="M45 80 L45 50 L55 50 L55 80 Z" fill="#D2B48C" />
-                <path d="M55 80 L55 35 L65 35 L65 80 Z" fill="#D2B48C" opacity="0.9" />
-                <path d="M35 80 L35 60 L45 60 L45 80 Z" fill="#D2B48C" opacity="0.8" />
-              </svg>
+            <div className="w-16 h-16 relative flex items-center justify-center">
+              <img src="/images/logo.png" alt="Dev Bhoomi Paint Industries Logo" className="w-full h-auto object-contain" />
             </div>
             <div className="flex flex-col items-start leading-none mt-1">
               <span className="font-extrabold text-xl md:text-2xl text-db-charcoal tracking-tight">DEV BHOOMI</span>
-              <span className="text-[10px] md:text-xs font-bold text-db-charcoal tracking-[0.2em] mt-0.5">PAINTS INDUSTRIES</span>
+              <span className="text-[10px] md:text-xs font-bold text-db-charcoal tracking-[0.2em] mt-0.5">PAINT INDUSTRIES</span>
             </div>
           </Link>
 

@@ -93,7 +93,7 @@ export const products: Product[] = [
       "Swimming pools and wet areas",
       "Tile-on-tile applications"
     ],
-    packaging: ["20 KG"],
+    packaging: ["25 KG (Gold)", "25 KG (Silver)"],
     technicalSpecs: [
       { label: "Base", value: "Cementitious Powder" },
       { label: "Mixed Density", value: "1.8 kg/ltr" },
@@ -121,7 +121,7 @@ export const products: Product[] = [
       "Swimming pools",
       "Bathrooms and Kitchens"
     ],
-    packaging: ["1 KG", "10 KG"],
+    packaging: ["1 KG", "25 KG"],
     technicalSpecs: [
       { label: "Base", value: "Polymer modified cement" },
       { label: "Joint Width", value: "1mm to 5mm" },
@@ -129,6 +129,31 @@ export const products: Product[] = [
       { label: "Curing", value: "Not required" }
     ],
     image: "/images/tile_grout_1789736767453.jpg"
+  },
+  {
+    id: "w1",
+    slug: "white-wash",
+    name: "WHITE WASH",
+    category: "cement",
+    tagline: "Brighten Your Walls Instantly",
+    description: "High-quality white wash for a traditional, bright, and hygienic finish on your walls.",
+    features: [
+      "Excellent brightness",
+      "Cost-effective solution",
+      "Easy application",
+      "Eco-friendly"
+    ],
+    applications: [
+      "Interior walls",
+      "Exterior boundaries",
+      "Commercial storage areas"
+    ],
+    packaging: ["25 KG"],
+    technicalSpecs: [
+      { label: "Appearance", value: "White Powder" },
+      { label: "Water Demand", value: "As per application consistency" }
+    ],
+    image: "/images/white_wash.jpg"
   }
 ];
 

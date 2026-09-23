@@ -60,15 +60,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               <div className="absolute inset-0 bg-db-charcoal/10" />
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between">
-              <div>
-                <h4 className="font-bold text-db-charcoal">Technical Data Sheet</h4>
-                <p className="text-sm text-gray-500">Download detailed specifications</p>
-              </div>
-              <button className="flex items-center gap-2 bg-db-snow text-db-charcoal px-4 py-2 rounded-md hover:bg-db-gold hover:text-white transition-colors font-medium border border-gray-200">
-                <FileText size={18} /> TDS (PDF)
-              </button>
-            </div>
+
           </div>
 
           {/* Right Column: Product Info */}

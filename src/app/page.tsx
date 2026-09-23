@@ -26,8 +26,14 @@ export default function Home() {
     {
       title: "TILE GROUT",
       description: "Fills gaps between tiles securely and smoothly. Highly durable and stain-resistant.",
-      link: "/products",
+      link: "/products/tile-grout",
       image: "/images/tile_grout_1789736767453.jpg"
+    },
+    {
+      title: "WHITE WASH",
+      description: "High-quality white wash for a traditional, bright, and hygienic finish on your walls.",
+      link: "/products/white-wash",
+      image: "/images/white_wash.jpg"
     }
   ];
 
@@ -106,6 +112,35 @@ export default function Home() {
                 alt="Modern Manufacturing Facility" 
                 className="w-full h-auto object-cover"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founder / CEO Section */}
+      <section className="py-24 bg-db-charcoal text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+            <div className="md:col-span-1 flex justify-center">
+              <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-db-gold shadow-2xl relative">
+                <div 
+                  className="w-full h-full bg-cover bg-center bg-gray-200 grayscale hover:grayscale-0 transition-all duration-500"
+                  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop')" }}
+                />
+              </div>
+            </div>
+            <div className="md:col-span-2">
+              <div className="mb-6">
+                <span className="text-db-gold font-bold tracking-widest uppercase text-sm mb-2 block">Leadership</span>
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">John Doe</h2>
+                <p className="text-gray-400 text-lg">Founder & CEO, Dev Bhoomi Paint Industries</p>
+              </div>
+              <blockquote className="text-xl md:text-2xl font-light italic text-gray-300 leading-relaxed mb-8 border-l-4 border-db-gold pl-6">
+                "Our mission is to provide the highest quality building materials that stand the test of time, ensuring beautiful and resilient spaces for generations to come."
+              </blockquote>
+              <p className="text-gray-400 leading-relaxed">
+                With over two decades of experience in the manufacturing sector, John leads Dev Bhoomi with a vision to innovate and deliver excellence in every product that leaves our facility.
+              </p>
             </div>
           </div>
         </div>
