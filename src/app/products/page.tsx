@@ -26,11 +26,11 @@ export default function ProductsPage() {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product) => (
-            <div key={product.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col">
+            <Link href={`/products/${product.slug}`} key={product.id} className="bg-white block cursor-pointer rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col group/card">
               
               <div className="relative h-64 overflow-hidden group">
                 <div 
-                  className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
+                  className="absolute inset-0 bg-cover bg-center group-hover:scale-105 group-hover/card:scale-105 transition-transform duration-500"
                   style={{ backgroundImage: `url('${product.image}')` }}
                 />
                 <div className="absolute inset-0 bg-db-charcoal/20 group-hover:bg-db-charcoal/10 transition-colors duration-300" />
@@ -52,16 +52,15 @@ export default function ProductsPage() {
                     <span>Available in: {product.packaging.join(", ")}</span>
                   </div>
                   
-                  <Link 
-                    href={`/products/${product.slug}`}
-                    className="inline-flex items-center justify-center w-full py-3 bg-db-charcoal text-white rounded-sm hover:bg-db-gold hover:text-db-charcoal font-semibold transition-colors duration-300 group"
+                  <div 
+                    className="inline-flex items-center justify-center w-full py-3 bg-db-charcoal text-white rounded-sm group-hover/card:bg-db-gold group-hover/card:text-db-charcoal font-semibold transition-colors duration-300 group"
                   >
-                    View Details <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Link>
+                    View Details <ArrowRight size={18} className="ml-2 group-hover/card:translate-x-1 transition-transform" />
+                  </div>
                 </div>
               </div>
 
-            </div>
+            </Link>
           ))}
         </div>
 
