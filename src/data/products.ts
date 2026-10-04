@@ -35,7 +35,7 @@ export const products: Product[] = [
       "Base for wall putty and paints",
       "Marble and stone laying"
     ],
-    packaging: ["1 KG", "5 KG", "50 KG"],
+    packaging: ["1 KG", "5 KG", "25 KG", "50 KG"],
     technicalSpecs: [
       { label: "Whiteness", value: "> 90%" },
       { label: "Fineness (Blaine)", value: "380 - 400 m²/kg" },
