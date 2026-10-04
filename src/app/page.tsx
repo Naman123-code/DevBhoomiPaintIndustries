@@ -124,22 +124,22 @@ export default function Home() {
             <div className="md:col-span-1 flex justify-center">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-db-gold shadow-2xl relative">
                 <div 
-                  className="w-full h-full bg-cover bg-center bg-gray-200 grayscale hover:grayscale-0 transition-all duration-500"
-                  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop')" }}
+                  className="w-full h-full bg-cover bg-center transition-all duration-500"
+                  style={{ backgroundImage: "url('/images/founder.jpg')" }}
                 />
               </div>
             </div>
             <div className="md:col-span-2">
               <div className="mb-6">
                 <span className="text-db-gold font-bold tracking-widest uppercase text-sm mb-2 block">Leadership</span>
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">John Doe</h2>
-                <p className="text-gray-400 text-lg">Founder & CEO, Dev Bhoomi Paint Industries</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">G S Singh</h2>
+                <p className="text-gray-400 text-lg">Founder, DevBhoomi Paints Industries</p>
               </div>
               <blockquote className="text-xl md:text-2xl font-light italic text-gray-300 leading-relaxed mb-8 border-l-4 border-db-gold pl-6">
-                "Our mission is to provide the highest quality building materials that stand the test of time, ensuring beautiful and resilient spaces for generations to come."
+                "We are embarking on an exciting journey to revolutionize the construction materials industry. Our commitment is to bring unparalleled innovation, exceptional quality, and steadfast reliability to every project we touch, building a legacy of trust."
               </blockquote>
               <p className="text-gray-400 leading-relaxed">
-                With over two decades of experience in the manufacturing sector, John leads Dev Bhoomi with a vision to innovate and deliver excellence in every product that leaves our facility.
+                As the visionary founder of this new enterprise, G S Singh brings a fresh perspective and an unwavering dedication to excellence. Under his dynamic leadership, DevBhoomi Paints Industries is poised to set new benchmarks and become a leading force in delivering top-tier, future-ready building solutions.
               </p>
             </div>
           </div>

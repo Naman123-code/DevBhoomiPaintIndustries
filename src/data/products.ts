@@ -93,7 +93,7 @@ export const products: Product[] = [
       "Swimming pools and wet areas",
       "Tile-on-tile applications"
     ],
-    packaging: ["25 KG (Gold)", "25 KG (Silver)"],
+    packaging: ["20 KG (Gold)", "20 KG (Silver)"],
     technicalSpecs: [
       { label: "Base", value: "Cementitious Powder" },
       { label: "Mixed Density", value: "1.8 kg/ltr" },
