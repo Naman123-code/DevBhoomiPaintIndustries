@@ -72,29 +72,29 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-            
-            {/* Google Map Embed */}
-            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden h-64 relative group">
-              <iframe
-                src="https://maps.google.com/maps?q=Kichha,+Udham+Singh+Nagar,+Uttrakhand,+263148&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0 grayscale group-hover:grayscale-0 transition-all duration-700"
-                title="DevBhoomi Paints Location"
-              ></iframe>
-            </div>
           </div>
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
             <ContactForm />
           </div>
-
         </div>
+
+        {/* Google Map Embed */}
+        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden h-[400px] lg:h-[500px] w-full relative group mt-8">
+          <iframe
+            src="https://maps.google.com/maps?q=Kichha,+Udham+Singh+Nagar,+Uttrakhand,+263148&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen={false}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="absolute inset-0 grayscale group-hover:grayscale-0 transition-all duration-700"
+            title="DevBhoomi Paints Location"
+          ></iframe>
+        </div>
+
       </div>
     </div>
   );
