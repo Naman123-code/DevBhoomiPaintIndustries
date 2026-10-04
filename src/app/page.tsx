@@ -106,11 +106,11 @@ export default function Home() {
                 Learn More About Us
               </Link>
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+            <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white aspect-video relative">
               <img 
                 src="/images/factory_interior.jpg" 
                 alt="Modern Manufacturing Facility" 
-                className="w-full h-auto object-cover"
+                className="absolute inset-0 w-full h-full object-cover scale-[1.08] origin-top-left"
               />
             </div>
           </div>
