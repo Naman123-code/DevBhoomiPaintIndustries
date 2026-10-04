@@ -35,8 +35,8 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-db-gold mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold mb-1">Phone</p>
-                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 98765 43210</p>
-                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 87654 32109</p>
+                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 8077116992</p>
+                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 6397212360</p>
                   </div>
                 </div>
 
@@ -44,19 +44,21 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 text-db-gold mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold mb-1">Email</p>
+                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">devbhoomipaintsindustries@gmail.com</p>
                     <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">info@devbhoomipaints.com</p>
-                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">sales@devbhoomipaints.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <MapPin className="w-6 h-6 text-db-gold mr-4 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold mb-1">Corporate Office</p>
-                    <p className="text-gray-300 leading-relaxed">
-                      123 Industrial Estate, Phase II<br />
-                      Dehradun, Uttarakhand 248001<br />
-                      India
+                    <p className="font-semibold mb-1">Office</p>
+                    <p className="text-gray-300 leading-relaxed text-sm mb-4">
+                      Opp Govt Primary School, Khamia Road, Shantipuri no 3, Kichha, Udham Singh Nagar, Uttrakhand, 263148
+                    </p>
+                    <p className="font-semibold mb-1">Plant</p>
+                    <p className="text-gray-300 leading-relaxed text-sm">
+                      Ward no 2, Khet no 763, Near New Mandi, Sonera, Kichha, Udham Singh Nagar, Uttrakhand, 263148
                     </p>
                   </div>
                 </div>
@@ -75,7 +77,7 @@ export default function ContactPage() {
             {/* Google Map Embed */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden h-64 relative group">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.74317112009!2d77.94709403847702!3d30.32541334645207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://maps.google.com/maps?q=Kichha,+Udham+Singh+Nagar,+Uttrakhand,+263148&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
