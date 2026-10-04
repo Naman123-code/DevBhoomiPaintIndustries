@@ -31,7 +31,7 @@ export default function AboutPage() {
         <div className="relative h-96 md:h-[500px] w-full rounded-3xl overflow-hidden shadow-2xl">
           <div 
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/about_us_manufacturing_1789737434145.jpg')" }}
+            style={{ backgroundImage: "url('/images/factory_exterior.jpg')" }}
           />
           <div className="absolute inset-0 bg-db-charcoal/30 mix-blend-multiply" />
           <div className="absolute inset-0 bg-gradient-to-t from-db-charcoal-dark via-transparent to-transparent opacity-80" />

@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white">
               <img 
-                src="/images/about_us_manufacturing_1789737434145.jpg" 
+                src="/images/factory_interior.jpg" 
                 alt="Modern Manufacturing Facility" 
                 className="w-full h-auto object-cover"
               />
