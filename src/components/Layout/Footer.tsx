@@ -92,8 +92,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="text-db-gold shrink-0" size={18} />
-                <a href="mailto:info@devbhoomipaints.com" className="hover:text-db-white transition-colors">
-                  info@devbhoomipaints.com
+                <a href="mailto:devbhoomipaintsindustries@gmail.com" className="hover:text-db-white transition-colors break-all">
+                  devbhoomipaintsindustries@gmail.com
                 </a>
               </li>
             </ul>
