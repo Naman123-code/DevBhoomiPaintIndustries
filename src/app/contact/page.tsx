@@ -35,7 +35,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-db-gold mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold mb-1">Phone</p>
-                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 8077116992</p>
+                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 8218616992</p>
                     <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">+91 6397212360</p>
                   </div>
                 </div>
