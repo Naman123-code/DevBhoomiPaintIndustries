@@ -59,21 +59,25 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product, idx) => (
-              <div key={idx} className="bg-white rounded-2xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col hover:-translate-y-1 transition-transform duration-300">
+              <Link 
+                key={idx} 
+                href={product.link}
+                className="bg-white rounded-2xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col hover:-translate-y-1 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              >
                 <div className="h-40 rounded-xl overflow-hidden mb-6">
                   <div 
-                    className="w-full h-full bg-cover bg-center"
+                    className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
                     style={{ backgroundImage: `url('${product.image}')` }}
                   />
                 </div>
-                <h3 className="text-lg font-bold text-db-charcoal mb-3 leading-snug">{product.title}</h3>
+                <h3 className="text-lg font-bold text-db-charcoal mb-3 leading-snug group-hover:text-db-gold transition-colors">{product.title}</h3>
                 <p className="text-sm text-gray-500 mb-6 flex-grow leading-relaxed">
                   {product.description}
                 </p>
-                <Link href={product.link} className="inline-block text-sm font-semibold text-db-charcoal hover:text-db-gold border-b-2 border-db-gold/30 hover:border-db-gold pb-1 transition-colors self-start">
+                <span className="inline-block text-sm font-semibold text-db-charcoal group-hover:text-db-gold border-b-2 border-db-gold/30 group-hover:border-db-gold pb-1 transition-colors self-start">
                   View Details
-                </Link>
-              </div>
+                </span>
+              </Link>
             ))}
           </div>
         </div>
