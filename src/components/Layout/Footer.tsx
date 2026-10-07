@@ -26,7 +26,7 @@ export default function Footer() {
                 <span className="text-[10px] text-gray-400 font-semibold tracking-widest uppercase block mb-1">Registration Number</span>
                 <span className="text-sm font-bold text-db-gold tracking-wide">UDYAM-UK-12-0099995</span>
               </div>
-              <div className="bg-white rounded-lg p-3 shadow-sm flex items-center justify-center w-[220px]">
+              <div className="flex items-center justify-center w-[220px]">
                 <img 
                   src="/images/make_in_india.png" 
                   alt="Make in India" 
