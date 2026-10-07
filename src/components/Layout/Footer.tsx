@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Settings } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -21,6 +21,19 @@ export default function Footer() {
               Leading manufacturers of premium white cement, putty, and high-performance building materials. 
               Committed to strength, whiteness, and durability.
             </p>
+            <div className="flex flex-col gap-4">
+              <div className="bg-gray-800/60 border border-gray-700/50 px-4 py-3 rounded-lg shadow-sm w-[220px]">
+                <span className="text-[10px] text-gray-400 font-semibold tracking-widest uppercase block mb-1">Registration Number</span>
+                <span className="text-sm font-bold text-db-gold tracking-wide">UDYAM-UK-12-0099995</span>
+              </div>
+              <div className="bg-white rounded-lg p-3 shadow-sm flex items-center justify-center w-[220px]">
+                <img 
+                  src="/images/make_in_india.png" 
+                  alt="Make in India" 
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Quick Links */}

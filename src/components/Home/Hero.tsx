@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight, Settings } from "lucide-react";
 
 const heroImages = [
   "/images/hero_paint_roller.png",
@@ -53,7 +53,7 @@ export default function Hero() {
               Leading Manufacturer of Decorative White Cement, Wall Putty, Tile Adhesives & Grout.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-3 font-semibold text-white bg-db-gold rounded-sm hover:bg-db-gold-light transition-colors"
@@ -66,6 +66,18 @@ export default function Hero() {
               >
                 Explore Products
               </Link>
+            </div>
+
+            <div className="flex items-center gap-4 bg-white/60 backdrop-blur-sm p-3 rounded-xl border border-white/40 shadow-sm w-max">
+              <img 
+                src="/images/make_in_india.png" 
+                alt="Make in India" 
+                className="h-12 w-auto drop-shadow-sm" 
+              />
+              <div className="flex flex-col">
+                <span className="text-[10px] font-bold text-gray-800 uppercase tracking-widest">Proudly</span>
+                <span className="text-sm font-black text-db-gold tracking-widest uppercase">Made In India</span>
+              </div>
             </div>
           </motion.div>
 
