@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Privacy Policy | DevBhoomi Paints",
-  description: "Privacy Policy for DevBhoomi Paints Industries",
+  title: "Privacy Policy | Dev Bhoomi Paint",
+  description: "Privacy Policy for Dev Bhoomi Paint Industries",
 };
 
 export default function PrivacyPolicyPage() {
@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
         
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            At DevBhoomi Paints Industries, we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+            At Dev Bhoomi Paint Industries, we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
           </p>
 
           <h2 className="text-2xl font-semibold text-db-charcoal mt-8 mb-4">1. Information We Collect</h2>
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
           <p>
             If you have questions or comments about this Privacy Policy, please contact us at:
             <br />
-            <strong>Email:</strong> info@devbhoomipaints.com
+            <strong>Email:</strong> contactus@devbhoomipaint.co.in
             <br />
             <strong>Address:</strong> 123 Industrial Area, Phase 2, Dehradun, Uttarakhand, India 248001
           </p>

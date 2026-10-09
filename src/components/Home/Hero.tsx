@@ -46,11 +46,15 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="max-w-xl"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-db-charcoal leading-[1.1] mb-6 tracking-tight">
-              BUILDING SPACES WITH QUALITY & STRENGTH
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-db-charcoal leading-[1.1] mb-4 tracking-tight uppercase">
+              DEV BHOOMI PAINT INDUSTRIES <br />
+              <span className="text-db-gold mt-2 block text-3xl md:text-4xl lg:text-5xl">S S WALL MAX</span>
             </h1>
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4">
+              Premium Paint & Wall Putty Manufacturer in UP & Uttarakhand
+            </h2>
             <p className="text-lg text-gray-600 mb-10 leading-relaxed">
-              Leading Manufacturer of Decorative White Cement, Wall Putty, Tile Adhesives & Grout.
+              Building spaces with quality and strength. Leading manufacturer of S S Wall Max Decorative White Cement, Wall Putty, Tile Adhesives & Grout across Uttar Pradesh and Uttarakhand.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">

@@ -21,6 +21,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
     { name: "About Us", href: "/about" },
+    { name: "Knowledge Center", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -30,7 +31,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex-shrink-0 flex items-center gap-3">
             <div className="w-16 h-16 relative flex items-center justify-center">
-              <img src="/images/logo.png" alt="Dev Bhoomi Paint Industries Logo" className="w-full h-auto object-contain" />
+              <img src="/images/logo.png" alt="Dev Bhoomi Paint Industries - S S Wall Max Manufacturer" className="w-full h-auto object-contain" />
             </div>
             <div className="flex flex-col items-start leading-none mt-1">
               <span className="font-extrabold text-xl md:text-2xl text-db-charcoal tracking-tight">DEV BHOOMI</span>

@@ -98,7 +98,7 @@ export default function Home() {
                 State-of-the-Art Manufacturing & Quality Control
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                DevBhoomi Paints Industries operates at the forefront of building materials technology. We pride ourselves on maintaining an advanced manufacturing ecosystem that guarantees precision, consistency, and superior quality across our entire product range.
+                Dev Bhoomi Paint Industries operates at the forefront of building materials technology. We pride ourselves on maintaining an advanced manufacturing ecosystem that guarantees precision, consistency, and superior quality across our entire product range.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 By investing in rigorous quality control and adopting sustainable practices, we ensure every batch of our White Cement, Wall Putty, and Adhesives meets the highest industry standards, delivering exceptional reliability for builders and architects alike.
@@ -113,7 +113,7 @@ export default function Home() {
             <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white aspect-video relative">
               <img 
                 src="/images/factory_interior.jpg" 
-                alt="Modern Manufacturing Facility" 
+                alt="Dev Bhoomi Paint Industries S S Wall Max Manufacturing Facility UP & Uttarakhand" 
                 className="absolute inset-0 w-full h-full object-cover scale-[1.08] origin-top-left"
               />
             </div>
@@ -137,13 +137,13 @@ export default function Home() {
               <div className="mb-6">
                 <span className="text-db-gold font-bold tracking-widest uppercase text-sm mb-2 block">Leadership</span>
                 <h2 className="text-3xl md:text-4xl font-bold mb-2">G S Singh</h2>
-                <p className="text-gray-400 text-lg">Founder, DevBhoomi Paints Industries</p>
+                <p className="text-gray-400 text-lg">Founder, Dev Bhoomi Paint Industries</p>
               </div>
               <blockquote className="text-xl md:text-2xl font-light italic text-gray-300 leading-relaxed mb-8 border-l-4 border-db-gold pl-6">
                 "We are embarking on an exciting journey to revolutionize the construction materials industry. Our commitment is to bring unparalleled innovation, exceptional quality, and steadfast reliability to every project we touch, building a legacy of trust."
               </blockquote>
               <p className="text-gray-400 leading-relaxed">
-                As the visionary founder of this new enterprise, G S Singh brings a fresh perspective and an unwavering dedication to excellence. Under his dynamic leadership, DevBhoomi Paints Industries is poised to set new benchmarks and become a leading force in delivering top-tier, future-ready building solutions.
+                As the visionary founder of this new enterprise, G S Singh brings a fresh perspective and an unwavering dedication to excellence. Under his dynamic leadership, Dev Bhoomi Paint Industries is poised to set new benchmarks and become a leading force in delivering top-tier, future-ready building solutions.
               </p>
             </div>
           </div>

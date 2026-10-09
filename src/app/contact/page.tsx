@@ -2,8 +2,8 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import ContactForm from "@/components/Forms/ContactForm";
 
 export const metadata = {
-  title: "Contact Us | DevBhoomi Paints",
-  description: "Get in touch with DevBhoomi Paints Industries for inquiries, bulk orders, and dealership opportunities.",
+  title: "Contact Us | Dev Bhoomi Paint Industries",
+  description: "Get in touch with Dev Bhoomi Paint Industries in UP and Uttarakhand for inquiries, bulk orders, and dealership opportunities for S S WALL MAX and paints.",
 };
 
 export default function ContactPage() {
@@ -44,7 +44,7 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 text-db-gold mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold mb-1">Email</p>
-                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">devbhoomipaintsindustries@gmail.com</p>
+                    <p className="text-gray-300 hover:text-white transition-colors cursor-pointer">contactus@devbhoomipaint.co.in</p>
                   </div>
                 </div>
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="absolute inset-0 grayscale group-hover:grayscale-0 transition-all duration-700"
-            title="DevBhoomi Paints Location"
+            title="Dev Bhoomi Paint Location"
           ></iframe>
         </div>
 

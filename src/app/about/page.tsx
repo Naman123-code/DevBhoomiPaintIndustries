@@ -2,8 +2,8 @@ import Image from "next/image";
 import { Award, Target, Eye, Users } from "lucide-react";
 
 export const metadata = {
-  title: "About Us | DevBhoomi Paints",
-  description: "Learn about DevBhoomi Paints Industries, our bold new vision, ISO certifications, and commitment to manufacturing excellence.",
+  title: "About Us | Dev Bhoomi Paint Industries | S S WALL MAX",
+  description: "Learn about Dev Bhoomi Paint Industries, the manufacturer of S S WALL MAX, our bold new vision, ISO certifications, and commitment to manufacturing excellence in UP and Uttarakhand.",
 };
 
 export default function AboutPage() {
@@ -20,11 +20,11 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-db-charcoal mb-4 tracking-tight">
-            Building a <span className="text-db-gold">Legacy</span> of Trust
+            Building a <span className="text-db-gold">Legacy</span> of Trust in UP & Uttarakhand
           </h1>
           <div className="w-24 h-1 bg-db-gold mx-auto mb-6 rounded-full" />
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Founded with a bold vision to revolutionize the construction materials industry, DevBhoomi Paints Industries is a dynamic new enterprise. We are deeply committed to delivering unparalleled strength, pristine finishes, and enduring quality for every project we touch.
+            Founded with a bold vision to revolutionize the construction materials industry, Dev Bhoomi Paint Industries is a dynamic enterprise. We are the proud manufacturers of <strong>S S WALL MAX</strong> and are deeply committed to delivering unparalleled strength, pristine finishes, and enduring quality for every project we touch across Uttar Pradesh and Uttarakhand.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-db-charcoal mb-4">Foundation of Excellence</h2>
           <div className="w-16 h-1 bg-db-gold mx-auto mb-6 rounded-full" />
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-            Quality is not just a promise; it's the core of our new enterprise. DevBhoomi Paints Industries is proudly ISO certified, laying a strong foundation by adhering to the highest international standards of manufacturing, safety, and environmental responsibility from the very beginning.
+            Quality is not just a promise; it's the core of our new enterprise. Dev Bhoomi Paint Industries is proudly ISO certified, laying a strong foundation by adhering to the highest international standards of manufacturing, safety, and environmental responsibility from the very beginning.
           </p>
           <div className="flex justify-center gap-6 flex-wrap">
              <div className="px-6 py-3 bg-white shadow-sm border border-gray-200 rounded-full font-bold text-db-charcoal">ISO 9001:2015</div>

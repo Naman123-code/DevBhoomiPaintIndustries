@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     const emailContent = `
-      <h3>New Inquiry from DevBhoomi Paints Website</h3>
+      <h3>New Inquiry from Dev Bhoomi Paint Website</h3>
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email || "Not provided"}</p>
       <p><strong>Phone:</strong> ${phone}</p>
@@ -27,7 +27,7 @@ export async function POST(request: Request) {
 
     const { data, error } = await resend.emails.send({
       from: "DevBhoomi Website <onboarding@resend.dev>",
-      to: ["devbhoomipaintsindustries@gmail.com"], // Must be the registered Resend account email for unverified domains
+      to: ["contactus@devbhoomipaint.co.in"], // Must be the registered Resend account email for unverified domains
       subject: `New Inquiry from ${name} - ${product || "General"}`,
       html: emailContent,
     });

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowRight, Box } from "lucide-react";
 
 export const metadata = {
-  title: "Products | DevBhoomi Paints",
-  description: "Browse our premium range of white cement, wall putty, and tile adhesives.",
+  title: "Products | Dev Bhoomi Paint Industries | S S WALL MAX",
+  description: "Browse our premium range of S S WALL MAX, white cement, wall putty, and tile adhesives in UP and Uttarakhand.",
 };
 
 export default function ProductsPage() {

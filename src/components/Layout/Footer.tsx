@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-white rounded-md flex items-center justify-center p-1">
-                <img src="/images/logo.png" alt="Dev Bhoomi Logo" className="w-full h-full object-contain" />
+                <img src="/images/logo.png" alt="Dev Bhoomi Paint Industries - S S Wall Max Manufacturer UP & UK" className="w-full h-full object-contain" />
               </div>
               <span className="font-bold text-xl tracking-tight text-db-white leading-tight">
                 Dev Bhoomi <br />Paint Industries
@@ -53,6 +53,11 @@ export default function Footer() {
               <li>
                 <Link href="/contact" className="text-gray-400 hover:text-db-gold transition-colors text-sm">
                   Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-gray-400 hover:text-db-gold transition-colors text-sm">
+                  Knowledge Center
                 </Link>
               </li>
             </ul>
@@ -105,8 +110,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="text-db-gold shrink-0" size={18} />
-                <a href="mailto:devbhoomipaintsindustries@gmail.com" className="hover:text-db-white transition-colors break-all">
-                  devbhoomipaintsindustries@gmail.com
+                <a href="mailto:contactus@devbhoomipaint.co.in" className="hover:text-db-white transition-colors break-all">
+                  contactus@devbhoomipaint.co.in
                 </a>
               </li>
             </ul>

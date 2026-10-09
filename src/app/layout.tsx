@@ -15,8 +15,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevBhoomi Paints Industries",
-  description: "Highly realistic, attractive, and functionally brilliant B2B product catalog for Dev Bhoomi Paints Industries.",
+  title: {
+    template: "%s | Dev Bhoomi Paint Industries",
+    default: "Dev Bhoomi Paint Industries | S S WALL MAX | UP & Uttarakhand",
+  },
+  description: "Dev Bhoomi Paint Industries, the premier manufacturer of S S WALL MAX and high-quality paints in Uttar Pradesh (UP) and Uttarakhand (UK). Discover superior building materials and wall solutions.",
+  keywords: ["S S WALL MAX", "DEV BHOOMI PAINT INDUSTRIES", "Paint Manufacturer in UP", "Paint Manufacturer in Uttarakhand", "Wall Putty in UP", "S S Wall Max UP", "S S Wall Max Uttarakhand", "Dev Bhoomi Paint", "Uttar Pradesh", "Uttarakhand", "UK"],
+  openGraph: {
+    title: "Dev Bhoomi Paint Industries | S S WALL MAX",
+    description: "Premium manufacturer of S S WALL MAX, paints, and building materials in UP and Uttarakhand.",
+    siteName: "Dev Bhoomi Paint Industries",
+    locale: "en_IN",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -29,6 +44,39 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Dev Bhoomi Paint Industries",
+              "image": "https://devbhoomipaints.com/images/logo.png",
+              "description": "Dev Bhoomi Paint Industries is the premier manufacturer of S S WALL MAX and high-quality paints in Uttar Pradesh (UP) and Uttarakhand (UK).",
+              "url": "https://devbhoomipaints.com",
+              "telephone": "+918218616992",
+              "email": "contactus@devbhoomipaint.co.in",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kashipur",
+                "addressRegion": "Uttarakhand",
+                "addressCountry": "IN"
+              },
+              "areaServed": [
+                {
+                  "@type": "State",
+                  "name": "Uttar Pradesh"
+                },
+                {
+                  "@type": "State",
+                  "name": "Uttarakhand"
+                }
+              ]
+            })
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-db-white text-db-charcoal relative">
         <Navbar />
         <main className="flex-grow">{children}</main>
